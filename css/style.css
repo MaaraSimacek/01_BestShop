@@ -14,3 +14,31 @@ Raleway
     box-sizing: border-box;
 }
 
+:root {
+    --color-primary: #08A6E4;
+    --color-primary-shadow: rgba(7, 172, 230, .16);
+    --color-redish: #fb3b64;
+    --color-green: #55DFB4;
+    --color-black: #000;
+    --color-grey: #a5a5a5;
+    --color-light-gray: #f7f7f7;
+    --color-white: #ffffff;
+
+    --font-raleway: "Raleway", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+
+    --button-radius: 35px;
+}
+
+body {
+    font-family: var(--font-open-sans);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1352px;
+    margin: 0 auto;
+}
