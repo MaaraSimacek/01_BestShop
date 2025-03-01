@@ -42,3 +42,52 @@ a {
     width: 1352px;
     margin: 0 auto;
 }
+
+
+/* ---------- HEADER ---------- */
+
+.header {
+    height: 70px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__logo a {
+    font-family: var(--font-raleway);
+    font-size: 32px;
+    color: var(--color-primary);
+    font-weight: 300;
+    height: 100%;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 26px;
+}
+
+.header__nav a {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 28px 18px 27px;
+    text-transform: uppercase;
+    color: var(--color-grey);
+    letter-spacing: 3.28px;
+    
+}
+
+.header__nav a:hover {
+    color: var(--color-black);
+    border-bottom: 4px solid var(--color-primary);
+
+}
+
+.header__nav a:last-child {
+    padding-right: 0;
+}
