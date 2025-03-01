@@ -60,7 +60,7 @@ a {
 
 .header__logo a {
     font-family: var(--font-raleway);
-    font-size: 32px;
+    font-size: 2em;
     color: var(--color-primary);
     font-weight: 300;
     height: 100%;
@@ -73,12 +73,12 @@ a {
 }
 
 .header__nav a {
-    font-size: 11px;
+    font-size: 0.6875em;
     font-weight: 700;
     padding: 28px 18px 27px;
     text-transform: uppercase;
     color: var(--color-grey);
-    letter-spacing: 3.28px;
+    letter-spacing: 3.28px; /* ??? em */
     
 }
 
@@ -91,3 +91,136 @@ a {
 .header__nav a:last-child {
     padding-right: 0;
 }
+
+
+/* ---------- OPENING ---------- */
+
+.opening {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.opening__container {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.opening__header {
+    font-family: var(--font-raleway);
+    font-size: 3.0625em;
+}
+
+.opening__content {
+    font-family: var(--font-open-sans);
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 38px; /* nefunguje??? */
+}
+
+.opening__image { 
+    width: 100%;
+    height: auto;
+}
+
+.opening__button {
+    font-family: var(--font-open-sans);
+    font-size: 1em;
+    font-weight: bold;
+    color: var(--color-white);
+    background: var(--color-primary);
+    padding: 22px 157px;
+    border-radius: var(--button-radius);
+}
+
+
+/* ---------- STATISTICS ---------- */
+
+.statistics {
+    margin-top: 100px;
+}
+
+.statistics__container {
+    max-width: 800px;     /*kde najdu??? */
+    margin: 100px auto 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.statistics__header {
+    font-family: var(--font-raleway);
+    font-size: 2.25em;
+    text-align: center;
+}
+
+.statistics__card {
+    max-width: 160px;    /*kde najdu??? */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-raleway);
+}
+
+.statistics__circle {
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    position: relative;
+}
+
+.statistics__image {
+    position: absolute;
+}
+
+.statistics__card__red .statistics__circle {
+    background: var(--color-redish);
+}
+
+/* .statistics__card__red .statistics__img {
+    top: 0;
+    left: 45%;
+} */
+
+.statistics__card__blue .statistics__circle {
+    background: var(--color-primary);
+}
+
+/* .statistics__card__blue .statistics__img {
+    top: 14px;
+    left: 47%;
+} */
+
+.statistics__card__green .statistics__circle {
+    background: var(--color-green);
+}
+
+/* .statistics__card__green .statistics__img {
+    top: 6px;
+    left: 50%;
+} */
+
+.statistics__number {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 0.1875rem;
+    margin-top: 13px;
+}
+  
+.statistics__description {
+    color: var(--color-grey);
+    margin-top: 19px;
+}
+
+
+/* ---------- BENEFITS ---------- */
+
+
+/* ---------- PRICES ---------- */
+
+
+/* ---------- QUESTIONS ---------- */
+
+
+/* ---------- FOOTER ---------- */
