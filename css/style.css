@@ -1,0 +1,16 @@
+/* FONTY
+
+OpenSans
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+Raleway
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
